@@ -4,3 +4,9 @@ for i in range(2, 9, 2):
 
 for i in range(5, 0, -1):
     print(f'hello world {i}')
+
+for i in range(5, 0):
+    print(f'hello world {i}')
+
+for i in range(1, 0, -1):
+    print(f'hello world {i}')
