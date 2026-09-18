@@ -14,3 +14,40 @@ if res == -1:
     print('Element not found')
 else:
     print(f'element found at {res} index')
+
+
+# function that returns number of negative numbers in an array
+
+def countNegative(li):
+    cnt = 0
+    for i in range(len(li)):
+        if(li[i] < 0):
+            cnt += 1
+    return cnt
+
+li = [2, -9, 17, -1, 1, -10, -4, 8]
+print(f'negative number in li are {countNegative(li)}')
+
+# function that return the largest numberin that array
+def largestElement(li):
+    max = float('-inf')
+    for i in range(len(li)):
+        if(li[i] > max):
+            max = li[i]
+    return max
+
+li = [5, 100, 10, 8, 17, 1]
+
+print(f'largest element in li is {largestElement(li)}')
+
+# function that return the smallest number in that array
+def smallestElement(li):
+    min = float('inf')
+    for i in range(len(li)):
+        if(li[i] < min):
+            min = li[i]
+    return min
+
+li = [-5, -100, -10, -8, -17, -1]
+
+print(f'smallest element in li is {smallestElement(li)}')
