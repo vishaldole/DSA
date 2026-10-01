@@ -1,2 +1,6 @@
+obj.addAtHead(6)
 obj.addAtHead(5)
-obj.traverseLL()
+obj.addAtHead(4)
+obj.addAtHead(3)
+obj.addAtHead(2)
+obj.addAtHead(1)
