@@ -1,3 +1,4 @@
+## TWO LOOPS
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         l = len(s) -1
